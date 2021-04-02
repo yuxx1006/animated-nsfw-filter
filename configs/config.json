@@ -1,0 +1,13 @@
+{
+  "config": {
+    "prod": {
+      "mongo_uri": "mongodb://troph-prod:sinoalice9800@172.21.45.4:27017/troph?authSource=admin"
+    },
+    "local": {
+      "mongo_uri": "localhost:27017/troph"
+    },
+    "dev": {
+      "mongo_uri": "10.1.25.30:27017/troph"
+    }
+  }
+}
